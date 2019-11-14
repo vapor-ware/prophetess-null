@@ -38,9 +38,7 @@ setup(
     package_data={'': ['LICENSE']},
     entry_points={'prophetess.plugins': 'null = prophetess_null'},
     python_requires='>=3.6',
-    install_requires=[
-        'aionetbox',
-    ],
+    install_requires=[],
     classifiers=[
         'Environment :: Plugins',
         'Programming Language :: Python :: 3',
