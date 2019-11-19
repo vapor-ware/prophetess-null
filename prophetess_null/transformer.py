@@ -10,4 +10,4 @@ class NullTransformer(Transformer):
 
     async def run(self, data):
         log.info(data)
-        return data
+        yield data
